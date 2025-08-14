@@ -10,7 +10,7 @@ summary(mcu)
 # write.csv() writes the mcu dataset on a new file named mcu_box_office_output.csv.
 write.csv(mcu, "mcu_box_office_output.csv")
 
-# The new mcu2 dataset has a index column added.
 mcu2 <- read.csv("mcu_box_office_output.csv")
 
+# The new mcu2 dataset has an index column added.
 head(mcu2,5)
